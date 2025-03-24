@@ -2,18 +2,99 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-papK9w5QY8W8sdDSW9NFHwb7YZD8ZT0r7PjM4f+8h+yUk5r1psH8GFLJOlM1z3D9lDyWfz7P9gMlk8a+7B+zUg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="profile">
-      <img src="./images/foto.jpg" alt="Minha Foto" class="profile-photo" />
-      <h2 class="profile-name">Olá! Me chamo Pedro Henrique</h2>
-      <p class="profile-description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, ut
-        necessitatibus. Saepe odit illum odio consequuntur, impedit, repudiandae
-        reiciendis earum quidem explicabo porro aspernatur ea deserunt ratione
-        sunt modi dolorem.
+    <nav class="navbar">
+      <ul>
+        <li><a href="#sobre-mim">Sobre Mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Portfólio</h1>
+    </header>
+
+    <main>
+      <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <div class="about">
+          <img src="placeholder-foto.jpg" alt="Sua Foto" />
+          <div class="about-text">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+              itaque, ut nulla non rerum eum iusto. Eveniet, aperiam?
+              Exercitationem veritatis molestiae tempora velit praesentium sunt.
+              Ratione modi quas eos recusandae. Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Itaque, quidem fugiat tempore in
+              deleniti debitis, est amet, velit magnam esse quas recusandae
+              dolor cum quisquam. Blanditiis laborum labore possimus ut?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projects">
+          <div class="project-card">
+            <img src="./images/bannerPynk.png" alt="Projeto Acadêmico" />
+            <h3>API Primeiro semestre</h3>
+            <p>
+              Internet banking com funções básicas de funcionamento e uma
+              interface de administração para gerenciamento da aplicação.
+            </p>
+            <p class="participation">
+              <strong>Minha participação:</strong> Nesse projeto atuei como desenvolvedor back-end, utilizando Python com o framework Flask, e SQL para o db.
+            </p>
+            <a href="https://github.com/pynkAPI/API-1-DSM_22" target="_blank"
+              >Ver repositório</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção 3: Tecnologias & Áreas de Atuação -->
+      <section id="tecnologias">
+        <h2>Tecnologias & Áreas de Atuação</h2>
+        <div class="tech">
+          <div class="tech-item">fegerg</div>
+          <div class="tech-item">gergerg</div>
+          <div class="tech-item">ggregreger</div>
+          <!-- Adicione outras tecnologias se necessário -->
+        </div>
+        <div class="areas">
+          <h3>Áreas de Atuação</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+            accusantium iusto aspernatur reiciendis rerum cumque eligendi culpa
+            tempora. Aliquid quasi eveniet animi minus vero eius sunt, culpa
+            rerum commodi quam.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+        minima at in harum mollitia exercitationem qui obcaecati enim, explicabo
+        assumenda vel recusandae fugit? Aut fugiat nemo molestias, earum
+        reiciendis minus..
       </p>
-    </section>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
